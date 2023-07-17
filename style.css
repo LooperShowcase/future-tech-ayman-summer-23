@@ -1,47 +1,51 @@
+h1 {
+  color: blue;
+}
 
-h1
-{
-    color: blue;
+h2 {
+ color: aquamarine; 
 }
-h2
-{
-   color: aquamarine; 
+
+h3 {
+  color: aliceblue;
 }
-h3
-{
-    color: aliceblue;
+
+.container {
+  background-color: gray;    
+  text-align: center;
+  border: 5px outset rgb(0, 0, 0);
+  text-shadow: 2px 2px darkolivegreen;
+  flex-direction: column;
+  width: 40%; /* Adjust the width to a percentage for responsiveness */
+  margin: 0 auto; /* Center the container horizontally */
 }
-.container{
-    background-color: gray;    
-    text-align: center;
-    border: 5px outset rgb(0, 0, 0);
-    text-shadow: 2px 2px darkolivegreen;
-    flex-direction: column;
-    width: 50%;
-  }
-  button{
-    box-shadow: 0px 0px 10px royalblue;
-    background: coral;
-    color: azure;
-    padding: 3px;
-    border-radius: 20px;
-    transition: 0.3;
-  }
-  button:hover {
-    background-color: darkgreen;
-    cursor: pointer;
-  }
-    
- #label-container{
+
+button {
+  box-shadow: 0px 0px 10px royalblue;
+  background: coral;
+  color: azure;
+  padding: 3px;
+  border-radius: 20px;
+  transition: 0.3s;
+  width: 10%; /* Make the button width 100% for mobile screens */
+  margin-bottom: 10px; /* Add some vertical spacing between buttons */
+}
+
+button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+#label-container {
   background-color: rgb(164, 164, 255);
   margin: 10px auto;
   width: 90px;
+}
 
- }
- body {
-  background: #304352;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
- }
- 
+body {
+  background: #304352;
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+  background: linear-gradient(to right, #d7d2cc, #304352);
+  margin: 0; /* Remove default body margin for full width */
+  padding: 10px; /* Add some padding to the body */
+}
